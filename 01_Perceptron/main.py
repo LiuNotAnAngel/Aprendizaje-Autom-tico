@@ -19,3 +19,11 @@ y_prediction = perceptron.predict(X)  # Prediu
 plt.figure(1)
 plt.scatter(X[:, 0], X[:, 1], c=y_prediction)  # Mostram el conjunt de mostres el color indica la classe
 plt.show()
+
+
+'''''
+git add .                         # prepara todos los archivos modificados/nuevos
+git commit -m "Mis soluciones"    # guarda los cambios con un mensaje
+git push                          # los sube a tu repo en GitHub
+
+'''''
